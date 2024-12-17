@@ -7,7 +7,7 @@ A **solenoid** is an electromagnetically operated valve. In our setup, we use a 
 The relationship between the required solenoid force, the fluid pressure, and the orifice area is given by:
 
 \[
-F_{\text{solenoid}} = P \cdot A = P \cdot (\pi \cdot d^2)
+F_{\text{solenoid}} = P \cdot A = P \cdot \pi \cdot \left( \frac{d}{2} \right)^2
 \]
 
 - \( F_{\text{solenoid}} \): Required solenoid force  
@@ -15,7 +15,9 @@ F_{\text{solenoid}} = P \cdot A = P \cdot (\pi \cdot d^2)
 - \( A \): Orifice area  
 - \( d \): Orifice diameter  
 
----
+### Explanation
+- The area \( A \) of the orifice is derived from the formula for the area of a circle, \( A = \pi \cdot \left( \frac{d}{2} \right)^2 \).
+
 
 ## MOSFET
 A **MOSFET** (Metal Oxide Semiconductor Field Effect Transistor) is a device with an insulated **Gate**, where the applied voltage determines its conductivity. 
